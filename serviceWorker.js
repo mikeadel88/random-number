@@ -1,10 +1,10 @@
 const staticDevCoffee = "random-number"
 const assets = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/script.js",
-  "/background.png",
+  "",
+  "index.html",
+  "style.css",
+  "script.js",
+  "background.png",
 
 ]
 
