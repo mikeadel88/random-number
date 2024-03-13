@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}   
+
+.head{
+    font-size: 2rem;
+    padding: 20px 0;
+    color: #fefefe;
+}
+.inputNum input{
+    border: 1px solid #333;
+    outline: none;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.buttons button{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border: 2px solid;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: #FC6E51;
+    color: #fff;
+    border-radius: 25px;
+    transition: all .2s linear;
+}
+.buttons button:hover{
+    background-color: transparent;
+    color: #000;
+    transform: scale(1.5);
+    border-color: #FC6E51;
+}
+.result{
+    text-align: center;
+    padding: 1rem;
+
+}
+.output{
+    font-size: 3rem;
+    color: #fefefe;
+}
+.numberArr{
+    font-size: 3rem;
+    color: #fefefe;
+}
